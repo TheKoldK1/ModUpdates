@@ -1,3 +1,1 @@
-add core_debug/disk/bb3/#Application.ar.00
-add core_debug/disk/bb3/#Application.arl
-add core_debug/movie/sega_logo_us.sfd 
+add mod.ini
