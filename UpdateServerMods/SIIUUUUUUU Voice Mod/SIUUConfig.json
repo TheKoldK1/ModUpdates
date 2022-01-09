@@ -1,0 +1,61 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Settings",
+         "Elements": [
+            {
+               "Name": "IncludeDir0",
+               "DisplayName": "Voice Clips",
+               "Description": [
+                  "Switch between different voice clips of SIIUUUU",
+               ],
+               "Type": "SIUUEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_mod"
+            },
+         ]
+      }
+   ],
+   "Enums": {
+      "SIUUEnum": [
+         {
+            "DisplayName": "The Main Mod",
+            "Value": "main_mod",
+            "Description": [
+               "The main mod itself with all clips",
+            ]
+         },
+         {
+            "DisplayName": "Quiet SIIUUUUU",
+            "Value": "siuu_quiet",
+            "Description": [
+               "The quiet SIIUUUU in a quiet stadium is only used",
+            ]
+         },
+         {
+            "DisplayName": "Loud SIIUUUUU",
+            "Value": "siuu_loud",
+            "Description": [
+               "The loud SIIUUUU in a loud and crowded stadium is only used",
+            ]
+         },
+		 {
+            "DisplayName": "Ballon D'Or SIIUUUUU",
+            "Value": "siuu_ballon",
+            "Description": [
+               "The iconic 2014 SIIUUUU is only used",
+            ]
+         },
+		 {
+            "DisplayName": "Insta Live SIIUUUUU",
+            "Value": "siuu_live",
+            "Description": [
+               "The SIIIUUUU from his Instagram Live is only used",
+            ]
+         },
+      ],
+   },
+   "IniFile": "mod.ini"
+}
