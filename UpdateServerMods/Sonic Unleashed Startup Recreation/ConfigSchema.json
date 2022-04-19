@@ -1,0 +1,40 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Configuration",
+         "Elements": [
+            {
+               "Name": "IncludeDir1",
+               "DisplayName": "Unleashed project combatibility",
+               "Description": [
+                  "Enable this when playing with unleashed project so that the mod will work safely with it",
+               ],
+               "Type": "BootEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_gens"
+            },
+      ]
+    }
+  ],
+  "Enums": {
+    "BootEnum": [
+         {
+            "DisplayName": "Enable",
+            "Value": "main_up",
+            "Description": [
+               "Enables the mod to work with unleashed project",
+            ]
+         },
+         {
+            "DisplayName": "Disable",
+            "Value": "main_gens",
+            "Description": [
+               "Disables unleashed project combatibility to work with vanilla generations",
+            ]
+         },
+    ]
+  },
+  "IniFile": "mod.ini"
+}
