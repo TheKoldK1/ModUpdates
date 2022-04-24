@@ -1,2 +1,2 @@
-## Sonic Unleashed Startup Recreation v1.0
-- First Release.
+## Sonic Unleashed: Encore
+- Beta Builds
