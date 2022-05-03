@@ -1,3 +1,1 @@
-add main_mod/disk/bb2/#pla200.ar.00
-add main_mod/disk/bb2/#pla200.arl
 add mod.ini
