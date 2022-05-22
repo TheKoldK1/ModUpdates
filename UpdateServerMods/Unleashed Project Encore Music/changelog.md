@@ -1,2 +1,2 @@
-## Unleashed EXP Overhaul v1.0
+## Unleashed Project Encore Music v1.0
 - First Release. 
