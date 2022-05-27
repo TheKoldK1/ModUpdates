@@ -3,10 +3,10 @@
 - Removed All Fall Signals
 - Fixed Aero Chaser Collision in Rooftop Run
 - Replaced Egg Pawn Enemies with Unleashed Enemies 
-- Added custom Bomb placement in Empire City
+- Removed cars in Empire City & replaed with custom bomb placement in Empire City
 - Drum sound effect in Savanna Citadel is now louder
 - Added new pictures in the HUB World for intro and credits (Props to Archxe for doing so)
-- RTX Fix by TuanPingas is now a config in this mod 
+- RTX Fix by TuanPingas is now a config in this mod (Because of the limit of files on GitHub you will need to download the mod from gb and copy/paste the 'main_rtx' folder to the mod folder of the addon)
 - New SU startup sequence made by TuanPingas
 - New Score Generations Layout for Unleashed Project in general by RFunk195
 
