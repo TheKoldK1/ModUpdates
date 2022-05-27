@@ -1,3 +1,15 @@
+## Unleashed Project: The Complete Addon V1.1
+- Fixed Sceneeffect in Savanna Citadel (Thank you Skyth for pointing this out)
+- Removed All Fall Signals
+- Fixed Aero Chaser Collision in Rooftop Run
+- Replaced Egg Pawn Enemies with Unleashed Enemies 
+- Added custom Bomb placement in Empire City
+- Drum sound effect in Savanna Citadel is now louder
+- Added new pictures in the HUB World for intro and credits (Props to Archxe for doing so)
+- RTX Fix by TuanPingas is now a config in this mod 
+- New SU startup sequence made by TuanPingas
+- New Score Generations Layout for Unleashed Project in general by RFunk195
+
 ## Unleashed Project: The Complete Addon V1.05
 - Fixed some of the enemy/object issues in Windmill Isle Act 2, Savanna Citadel, Rooftop Run & Arid Sands
 - Fixed a rotation value in Empire City
