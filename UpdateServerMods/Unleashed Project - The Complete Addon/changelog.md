@@ -1,4 +1,6 @@
 ## Unleashed Project: The Complete Addon V1.1
+- Couple more tweaks with the stags along with these patches:
+- Removed some enemies in Windmill Isle Act 2
 - Fixed Sceneeffect in Savanna Citadel (Thank you Skyth for pointing this out)
 - Removed All Fall Signals
 - Fixed Aero Chaser Collision in Rooftop Run
