@@ -1,0 +1,205 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Configuration",
+         "Elements": [
+			{
+               "Name": "IncludeDir0",
+               "DisplayName": "Button Icons",
+               "Description": [
+                  "Determine the button prompts for the Jump Selectors",
+               ],
+               "Type": "IconEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_ps3"
+            },
+			
+			
+			{
+               "Name": "IncludeDir1",
+               "DisplayName": "Speed Down In Aero Chaser Sections",
+               "Description": [
+                  "Enable speed down in the chaser sections in Roofop Run, Dragon Road, Empire City & Jungle Joyride",
+               ],
+               "Type": "SpeedEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_speed_down"
+            },
+			
+			
+			{
+               "Name": "IncludeDir2",
+               "DisplayName": "World Map Music ",
+               "Description": [
+                  "Enable world map music in the HUB world",
+               ],
+               "Type": "MusicEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_hub_bgm"
+            },
+			
+			
+			{
+               "Name": "IncludeDir3",
+               "DisplayName": "Sonic Unleashed Startup Recreation",
+               "Description": [
+                  "Enable my Sonic Unleashed Startup Recreation Mod",
+               ],
+               "Type": "StartupEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_su_startup"
+            },
+
+
+            {
+               "Name": "IncludeDir4",
+               "DisplayName": "Unleashed Physics",
+               "Description": [
+                  "Enable Unleashed Physics",
+               ],
+               "Type": "PhysicsEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_su_phy"
+            },
+
+			
+			{
+               "Name": "IncludeDir5",
+               "DisplayName": "RTX Fix",
+               "Description": [
+                  "Enable the RTX Fix for Unleashed Project",
+               ],
+               "Type": "RTXEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_dummy"
+            },
+         ]
+      }
+   ],
+   "Enums": {
+      "IconEnum": [
+          {
+            "DisplayName": "PlayStation 3",
+            "Value": "main_ps3",
+            "Description": [
+               "Use PlayStation 3 button prompts",
+            ]
+         },
+         
+         {
+            "DisplayName": "XBOX 360",
+            "Value": "main_360",
+            "Description": [
+               "Use Xbox 360 button prompts",
+            ]
+         },
+         
+      ],
+	  "SpeedEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_speed_down",
+            "Description": [
+               "Enable Speed Down",
+            ]
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable Speed Down",
+            ]
+         },
+         
+      ],
+	  "MusicEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_hub_bgm",
+            "Description": [
+               "Enable World Map Music",
+            ]
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable World Map Music",
+            ]
+         },
+         
+      ],
+	  "StartupEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_su_startup",
+            "Description": [
+               "Enable Sonic Unleashed Startup Recreation",
+            ]
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable Sonic Unleashed Startup Recreation",
+            ]
+         },
+         
+      ],
+	  "PhysicsEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_su_phy",
+            "Description": [
+               "Enable Unleashed Physics",
+            ]
+         },
+		 
+		 {
+            "DisplayName": "Enable w/ QTE-like Physics",
+            "Value": "main_su_phy_qte",
+            "Description": [
+               "Use Physics with the trick speed similar to the QTE in Unleashed(MAKE SURE TRICK MASTERY SKILL IS ENABLED)",
+            ]
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable Unleashed Physics",
+            ]
+         },
+         
+      ],
+	  "RTXEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_rtx",
+            "Description": [
+               "Enable RTX Fix",
+            ]
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable RTX Fix",
+            ]
+         },
+         
+      ],
+   },
+   "IniFile": "mod.ini"
+}
