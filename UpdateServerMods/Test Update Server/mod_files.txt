@@ -1,3 +1,6 @@
 delete disk/bb/#sph200.ar.00
+delete disk/bb/#sph200.ar.01
+delete disk/bb/#sph200.ar.02
+delete disk/bb/#sph200.ar.03
 delete disk/bb/#sph200.arl
 add mod.ini
