@@ -1,3 +1,7 @@
+## Unleashed Project: The Complete Addon V1.15
+- Fixed texture issues in Dragon Road & Windmill Isle Act 1 - Added power gloss to WI Act 1
+- Replaced UP Enemies with SU enemies with Unleashed Style Enemies by Iulian
+
 ## Unleashed Project: The Complete Addon V1.1
 - Couple more tweaks with the stags along with these patches:
 - Removed some enemies in Windmill Isle Act 2
