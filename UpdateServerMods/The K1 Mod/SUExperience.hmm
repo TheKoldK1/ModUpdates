@@ -1,0 +1,137 @@
+Patch "Unleashed Voice Swap" by "brianuuu"
+WriteProtected<byte>(0x123196F, 0x14);
+WriteProtected<uint>(0x1231971, 0x2DCE9D); /*Lightdash*/
+WriteProtected<uint>(0xE4B684, 0xFFFFFF); /*Tricks (disable)*/
+WriteProtected<byte>(0xE4B8DE, 0x14);
+WriteProtected<uint>(0xE4B8E0, 0x2DCE9D); /*Trick finish*/
+WriteProtected<uint>(0xDF3710, 0x2DCEA3); /*Drift*/
+WriteProtected<byte>(0xDF0C06, 0x14);
+WriteProtected<uint>(0xDF0C08, 0x2DCE9D); /*4-way cannon (false direction on Unleashed jump selector)*/
+WriteProtected<byte>(0xDF0B94, 0x14);
+WriteProtected<uint>(0xDF0B96, 0x2DCE9D); /*true direction on Unleashed jump selector (Unused in Generations)*/
+
+Patch "Unleashed Style Grinding Animations & No Boosting Animation When Grinding" by "Skyth"
+WriteProtected<ushort>(0xDF2380, 0xA4E9);
+WriteProtected<byte>(0xDF2382, 0x0);
+WriteNop(0xDF2385, 1);
+WriteProtected<byte>(0xDF2356, 0xEB);
+WriteProtected<byte>(0xDF2485, 0xEB);
+
+Patch "Disable Fast Fall Animation" by "Skyth"
+WriteProtected<byte>(0x111913A, 0xEB);
+
+Patch "Fix Skydive Collision Detection" by "N69"
+WriteNop(0x119822E, 18)
+
+Patch "All Rings Can Be Light Dashed" by "Skyth"
+WriteProtected<uint>(0x105334D, 0x10C47C6)
+WriteNop(0x1053351, 16)
+
+Patch "Disable Light Dash Particles" by "Hyper"
+WriteProtected<byte>(0x10538EB, 0xE9, 0x8F, 0x00, 0x00, 0x00, 0x90);
+
+Patch "Disable Lap Time Display" by "Hyper"
+WriteProtected<byte>(0x10976EF, 0x90, 0xE9);
+
+Patch "Disable Title Loading Video" by "Hyper"
+WriteProtected<byte>(0xD6966E, 0xE9, 0x14, 0x01, 0x00, 0x00);
+
+Patch "Restore Right Stick Camera Controls" by "Skyth & Ahremic"
+//=====//
+// Pan //
+//=====//
+static double PanSmoothingRate = 0.65;
+fixed (double* pPanSmoothingRate = &PanSmoothingRate)
+	WriteProtected(0x10E723E, (uint)pPanSmoothingRate);
+
+// X
+WriteAsmHook(@"
+movss xmm0, ds:0x1E77B74
+shufps xmm0, xmm0, 0
+cvtps2pd xmm0, xmm0
+movapd xmm3, xmm0
+movsd xmm0, ds:0x1464F30
+subsd xmm3, xmm2
+", 0x10E7232, HookBehavior.Replace);
+
+// Y
+WriteAsmHook(@"
+movss xmm0, ds:0x1E77B78
+shufps xmm0, xmm0, 0
+cvtps2pd xmm0, xmm0
+movapd xmm4, xmm0
+movsd xmm0, ds:0x1703C98
+cvtps2pd xmm3, xmm1
+", 0x10E7265, HookBehavior.Replace);
+
+//========//
+// Orient //
+//========//
+
+// X
+WriteAsmHook(@"
+movss xmm1, ds:0x1E77B74
+mulss xmm1, ds:0x13E08A4
+shufps xmm1, xmm1, 0
+cvtps2pd xmm3, xmm1
+xorps xmm1, xmm1
+add esp, 8
+", 0x10EE053, HookBehavior.Replace);
+
+// Y
+WriteAsmHook(@"
+movss xmm1, ds:0x1E77B78
+mulss xmm1, ds:0x13E40B8
+xorps xmm1, ds:0x1703930
+shufps xmm1, xmm1, 0
+cvtps2pd xmm0, xmm1
+xorps xmm1, xmm1
+cvtps2pd xmm2, xmm2
+", 0x10EE030, HookBehavior.Replace);
+
+Patch "All Cameras are Controllable" by "Skyth"
+WriteNop(0x10E7515, 2);
+
+Patch "Disable Spin Dash on Dash Panels" by "Hyper"
+WriteProtected<byte>(0xE0AC1C, 0xE9, 0x27, 0x01, 0x00, 0x00);
+WriteProtected<byte>(0xE0C734, 0xE9, 0x27, 0x01, 0x00, 0x00);
+
+Patch "Collect 10-Ring Instantly" by "brianuuu"
+WriteNop(0xE4155E, 2);
+WriteNop(0xE415C8, 2);
+WriteProtected<int>(0xE4157A, -1);
+
+Code "Unleashed Style Camera" by "Skyth"
+static bool initialized = false;
+static double _0 = 0.0;
+static double _50_60 = 50.0 / 60.0;
+
+if (!initialized)
+{
+	WriteAsmHook("mulss xmm0, ds:0x14AF8CC", 0x10ED952, HookBehavior.After);
+	WriteAsmHook("mulss xmm3, ds:0x14AF8CC", 0x10EDB4C, HookBehavior.After);
+	WriteAsmHook("mulss xmm3, ds:0x14AF8CC", 0x10EDAC2, HookBehavior.After);
+
+	WriteAsmHook("cvtps2pd xmm2, xmm1; mulsd xmm0, xmm2", 0x10ED123, HookBehavior.Replace);
+	WriteAsmHook("movss xmm1, ds:0x1559A98", 0x10ED12F, HookBehavior.After);
+	WriteAsmHook("xorpd xmm0, ds:0x1703930; addsd xmm0, ds:0x1703940", 0x10ED14A, HookBehavior.Before);
+
+	fixed (double* p0 = &_0)
+	fixed (double* p50_60 = &_50_60)
+	{
+		WriteProtected<uint>(0x10ED879, (uint)p0);
+		WriteProtected<uint>(0x10ED884, (uint)p50_60);
+	}
+	
+	WriteProtected<byte>(0x10EDEC4, 0xEB);
+	WriteProtected<byte>(0x10EE1AA, 0x0F, 0x57, 0xC0, 0x90, 0x90, 0x90, 0x90, 0x90);
+
+	initialized = true;
+}
+
+Write(0x1A48BFC, 3.0f); // DRIFT_TARGET_SIDE_OFFSET_SCALE
+Write(0x1A48B60, 60.0f); // CAMERA_MAX_PITCH
+Write(0x1A48B6C, 20.0f); // CAMERA_PITCH_MOVE_VELOCITY_MIN
+
+Patch "Disable Title Outro" by "Skyth"
+WriteProtected<int>(0x57346F, 0x16A36CC);
