@@ -47,4 +47,4 @@ add main_mod/disk/bb2/Packed/pla200/pla200.ar.06
 add main_mod/disk/bb2/Packed/pla200/pla200.arl
 delete main_mod/disk/bb/Packed/sph200/sph200.ar.04
 delete main_mod/disk/bb/Packed/sph200/sph200.ar.05
-add mod.ini 
+add mod.ini
