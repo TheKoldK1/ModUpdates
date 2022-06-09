@@ -1,3 +1,12 @@
+## Unleashed Project: The Complete Addon V1.2
+- Adjusted Aero Chaser collision once again in Rooftop Run
+- Another fix for Dragon Road Textures
+- Changed up the firework/rocket values so now Sonic lands on the dragon before running up
+- Firework/rocket now has proper sfx 
+- Removed random Bobsleigh ObjectPhysics in Cool Edge
+- Increased the height of the bombs by a small amount in Empire City & removed a camera from that lane
+- Changed camera values near the end of Jungle Joyride
+
 ## Unleashed Project: The Complete Addon V1.15
 - Fixed texture issues in Dragon Road & Windmill Isle Act 1 - Added power gloss to WI Act 1
 - Replaced UP Enemies with SU enemies with Unleashed Style Enemies by Iulian
