@@ -1,3 +1,6 @@
+## The K1 Mod v1.35.5
+- It's now called The K1 Mod
+
 ## Unleashed EXP Overhaul v1.35
 - Fixed rainbow chip bracelet on the models
 - Changed 'Beta' to 'Preivew' in the config file
