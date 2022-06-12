@@ -1,3 +1,6 @@
+## The K1 Mod v1.35.5.5
+- Fuck this update server
+
 ## The K1 Mod v1.35.5
 - It's now called The K1 Mod
 
