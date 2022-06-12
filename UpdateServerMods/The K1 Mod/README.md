@@ -1,26 +1,27 @@
-## What is The True Unleashed EXP Overhaul?
-This mod is a complete update - kinda - to the Unleashed EXP mod, and will have extra assets to it 
-Such as:
+## What Is The K1 Mod?
+Everything Unleashed.
 
-• Adding Pure SU and Marza SU
 
-• Adding a ‘Preview’ like SU model  
 
-• Including the option to change between bracelet and non bracelet
- 
-• Changing up the physics
 
-• Adding QTE Ramp-like physics (Trick Mastery must be enabled)
+## Credits Of The K1 Mod:
+There is only ONE true person that should be credited and it's me K1 A1 
 
-• Adding the proper unleashed boost (from Unleashing) to the models (might not add it to Marza Sonic though)
+jkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjk
 
-• Include the option to change between Unleashed and Beta Style Camera 
 
-• Getting correct object textures and 1:1 sfx 
 
-Making it the best experience of Sonic Unleashed in Sonic Generations
 
-## Credits of The True Unleashed EXP Overhaul/The K1 Mod:
+
+
+
+
+
+
+
+
+
+
 • K1 A1 - Compiling all these mods together into one, expanding on the config, file swapping, sfx editing, removing unnecessary UV animations, etc
 
 • Mario Tainaka - The creator of “The Real Sonic Unleashed Experience”, made the config, created the Rank Quotes dll file, implemented the quotes into the csb files, made Unleashed Project Compatibility Fixes
