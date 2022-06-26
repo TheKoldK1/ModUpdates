@@ -1,3 +1,6 @@
+## The K1 Mod v1.4
+- Fixed certain voice effects
+
 ## The K1 Mod v1.35.5.5
 - Fuck this update server
 
