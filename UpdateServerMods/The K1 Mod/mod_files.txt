@@ -1,1 +1,4 @@
+add core_eng/disk/bb/cmn200.ar.00
+add core_eng/disk/bb/cmn200.ar.01
+add core_eng/disk/bb/cmn200.arl
 add mod.ini
