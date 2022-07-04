@@ -1,3 +1,6 @@
+## i hate my life v1.45
+- Another fix for english voice sfx
+
 ## The K1 Mod v1.4
 - Fixed certain voice effects
 
