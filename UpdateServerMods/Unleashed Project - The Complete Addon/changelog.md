@@ -1,3 +1,18 @@
+## Unleashed Project: The Complete Addon V1.25
+- Fixed Classic Sonic issue; you can now play from starting a new game 
+- New Skybox in HUB World by Archie 
+- Majority of stages now use HD PB textures implemented by Archie 
+- Added ambient noises to all stages 
+- Added default Unleashed 2D camera params to the appropriate stages
+- Some object tweaks to Savanna Citadel 
+- Restored more Dragon Road cameras towards the end of the stage 
+- Removed Planet Wisp enemies from Cool Edge 
+- Fixed camera issue in Cool Edge
+- Some more camera placements in Arid Sands 
+- Fixed Skybox Issue in Empire City 
+- Fixed Ring texture issue in Savanna Citadel and Jungle Joyride
+
+
 ## Unleashed Project: The Complete Addon V1.2
 - Adjusted Aero Chaser collision once again in Rooftop Run
 - Another fix for Dragon Road Textures
