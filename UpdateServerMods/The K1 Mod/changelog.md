@@ -1,3 +1,6 @@
+## The K1 Mod v1.5
+- Added support for the new Sonic Unleashed HUD 
+
 ## i hate my life v1.45
 - Another fix for english voice sfx
 
