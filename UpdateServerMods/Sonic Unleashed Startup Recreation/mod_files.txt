@@ -1,1 +1,3 @@
-.
+add main_up/disk/bb3/#Application.ar.00
+add main_up/disk/bb3/#Application.arl
+add mod.ini
