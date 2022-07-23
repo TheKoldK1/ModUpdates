@@ -1,3 +1,8 @@
+## The K1 Mod v1.55
+- Added new slide trail
+- Marza Model is now part of the mod with all updated particles
+- Added 'Unleashed Style Stomp' & 'Unleashed Stick Deadzone' codes 
+
 ## The K1 Mod v1.5
 - Added support for the new Sonic Unleashed HUD 
 
