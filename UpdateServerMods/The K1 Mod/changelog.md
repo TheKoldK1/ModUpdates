@@ -1,3 +1,8 @@
+## The K1 Mod v1.6
+- Fixed the drift animations with Marza Sonic w/ Chip Bracelet 
+- Fixed the darker tone on Marza Sonic's lower body
+- Due to file limit on Github you're gonna have to get the files manually via this link (you don't need to redownload The K1 Mod): https://drive.google.com/file/d/1Nn7ec0qSsSj0RbifoZuaWelOQQXcUb6w/view?usp=sharing
+
 ## The K1 Mod v1.55
 - Added new slide trail
 - Marza Model is now part of the mod with all updated particles
