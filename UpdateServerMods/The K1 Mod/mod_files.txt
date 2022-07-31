@@ -40,4 +40,4 @@ delete core_su_marza_chip/disk/bb3/Sonic.ar.17
 delete core_su_marza_chip/disk/bb3/Sonic.ar.18
 delete core_su_marza_chip/disk/bb3/Sonic.ar.19
 delete core_su_marza_chip/disk/bb3/Sonic.arl
-add mod.ini 
+add mod.ini
