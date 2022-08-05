@@ -1,3 +1,9 @@
+## The K1 Mod v1.65
+- Removed Speed-o-meter sfx from checkpoint sfx cue to have compatibility with SU HUD 
+- Removed SU/SWA title from the mod since exe.qution has done it better 
+- Remaned files
+- Removed #SystemCommon files as the Unleashed Stick Deadzone is now a code
+
 ## The K1 Mod v1.6
 - Fixed the drift animations with Marza Sonic w/ Chip Bracelet 
 - Fixed the darker tone on Marza Sonic's lower body
