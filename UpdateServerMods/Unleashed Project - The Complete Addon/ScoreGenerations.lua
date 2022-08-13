@@ -49,33 +49,33 @@ function calculateSpeedBonus()
 	-- Assign speed bonus multiplier for specific stages
 	-- Apotos (Act 1)
 	if (stageID == "ghz100") then
-	    sbMultiplier = 150
+	    sbMultiplier = 200
 	elseif (stageID == "pla200") then
-		sbMultiplier = 150
+		sbMultiplier = 200
 	-- Apotos (Act 2)
 	elseif (stageID == "ghz200") then
 	    sbMultiplier = 40
 	-- Mazuri
 	elseif (stageID == "cpz200") then
-	    sbMultiplier = 35
+	    sbMultiplier = 40
 	-- Spagonia
 	elseif (stageID == "ssz200") then
-	    sbMultiplier = 70
+	    sbMultiplier = 75
 	-- Chun-nan
 	elseif (stageID == "sph200") then
-	    sbMultiplier = 35
+	    sbMultiplier = 40
 	-- Holoska
 	elseif (stageID == "cte200") then
-		sbMultiplier = 50
+		sbMultiplier = 60
 	-- Shamar
 	elseif (stageID == "ssh200") then
-		sbMultiplier = 45
+		sbMultiplier = 50
 	-- Empire City
 	elseif (stageID == "csc200") then
 		sbMultiplier = 40
 	-- Adabat
 	elseif (stageID == "euc200") then
-		sbMultiplier = 35
+		sbMultiplier = 40
 	else
 		sbMultiplier = 0
 	end
@@ -83,7 +83,7 @@ function calculateSpeedBonus()
 	print("sbMultiplier = " .. sbMultiplier)
 
 	-- Calculate speed bonus.
-	totalVelocity = totalVelocity * sbMultiplier
+	totalVelocity = math.max(0.0, totalVelocity - 20.0)  * sbMultiplier
 
 	return math.clamp(math.round(totalVelocity), 0, scoreLimit)
 end
