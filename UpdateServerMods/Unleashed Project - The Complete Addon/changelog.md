@@ -1,3 +1,21 @@
+## Unleashed Project: The Complete Addon V1.3
+- Fixed some more 2D cameras in Arid Sands & Adjusted cameras near the end of the stage
+- Restored wall jumping mechanics in a certain 2D section in Arid Sands 
+- Restored a cam in Dragon Road 
+- Brought back the Empire City beginning skip 
+- Tweaked the tunnel cameras a bit in EC
+- Area before Aero Chaser now has three lanes instead of two 
+- New Enemy Trigger at the end of Empire City 
+- Removed Confetti & Hot Air Balloons in Rooftop Run 
+- New SU Explosions w/ EXP Orbs by -[DEXTERITY]-
+- New Enemy Spawn Particles and Spanner Electricity Particles by ExeQutionnn 
+- New HUB World Door Particles with their respective act number by ExeQutionnn
+- Removed drift parameters from physics to activate SU Drift within Gens' Code (Dex Told me it would activate if doing so XD)
+- Updated Score Gens Layout by RFunk195
+- Added Custom Picture to replace the 'Hardware Requirement' board 
+- Improved Recreation of the Aero Chaser Camera in Jungle Joyride by ExeQutionnn
+- Added 'Unleashed Stick Deadzone' Code to the HMM file
+
 ## Unleashed Project: The Complete Addon V1.25
 - Fixed Classic Sonic issue; you can now play from starting a new game 
 - New Skybox in HUB World by Archie 
