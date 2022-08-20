@@ -1,3 +1,6 @@
+## The K1 Mod v1.65.5
+- Improved Beta Style Camera
+
 ## The K1 Mod v1.65
 - Removed Speed-o-meter sfx from checkpoint sfx cue to have compatibility with SU HUD 
 - Removed SU/SWA title from the mod since exe.qution has done it better 
