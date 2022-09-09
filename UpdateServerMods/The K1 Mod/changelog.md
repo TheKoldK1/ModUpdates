@@ -1,3 +1,11 @@
+## The K1 Mod v1.7
+- Added original wall run animations from unleashed
+- Ported all eye UV animations from unleashed to the model
+- Added the correct damage animation when skydiving in unleashed
+- Added QTE reaction plates animations to SU (for future proof)
+- Added certain files back from the K1 Addon
+- Added the correct Rank eye UVs
+
 ## The K1 Mod v1.65.5
 - Improved Beta Style Camera
 
