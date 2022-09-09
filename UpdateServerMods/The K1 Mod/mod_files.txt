@@ -1,3 +1,15 @@
-add core_su_camera_beta/disk/bb/#cmn200.ar.00
-add core_su_camera_beta/disk/bb/#cmn200.arl
+add core_main/disk/bb/ActionCommon.ar.00
+add core_main/disk/bb/ActionCommon.arl
+add core_main/disk/bb2/EnemyCommon.ar.00
+add core_main/disk/bb2/EnemyCommon.arl
+add core_main/disk/bb2/EnemySpinner.ar.00
+add core_main/disk/bb2/EnemySpinner.arl
+add core_su_beta_model/disk/bb3/Sonic.ar.00
+add core_su_beta_model/disk/bb3/Sonic.arl
+add core_su_beta_model_chip/disk/bb3/Sonic.ar.00
+add core_su_beta_model_chip/disk/bb3/Sonic.arl
+add core_su_model/disk/bb3/Sonic.ar.00
+add core_su_model/disk/bb3/Sonic.arl
+add core_su_model_chip/disk/bb3/Sonic.ar.00
+add core_su_model_chip/disk/bb3/Sonic.arl
 add mod.ini
