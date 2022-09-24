@@ -1,3 +1,6 @@
+## The K1 Mod v1.75
+- Fixed all issues with Marza Sonic (No longer need a separate download)
+
 ## The K1 Mod v1.7
 - Added original wall run animations from unleashed
 - Ported all eye UV animations from unleashed to the model
