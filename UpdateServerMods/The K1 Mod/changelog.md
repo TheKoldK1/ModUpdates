@@ -1,3 +1,12 @@
+## The K1 Mod v1.8
+- Added UP Addon Physics to The K1 Mod 
+- Adjusted QTE Physics
+- Fixed necessary SU Models having chip bracelet (Apart from Marza Sonic)
+- Fixed missing textures on Pulley
+- Adjusted the Exp Orbs to be similar to SU
+- Added extra files for a certain mod 
+- Added 'Disable Trick Particles' code
+
 ## The K1 Mod v1.75
 - Fixed all issues with Marza Sonic (No longer need a separate download)
 
