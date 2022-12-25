@@ -1,3 +1,13 @@
+## The K1 Mod v1.85
+- The sweet new models for Pure SU Redux Marza Sonic are now part of the mod
+- Added SU Particles for Super Sonic
+- Added empty boost vfx
+- Fixed some animations
+- Added One-Up effect that surrounds the object
+- Added UP Addon Enemies, Explosions, Spawn Particles, Spinner Electric Particles, red medals, collection particles, EXP Particles/Orbs & New Physics
+- Added SU Restorations Support
+- Updated Konfig and Kodes
+
 ## The K1 Mod v1.8
 - Added UP Addon Physics to The K1 Mod 
 - Adjusted QTE Physics
