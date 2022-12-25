@@ -2,13 +2,13 @@
    "Groups": [
       {
          "Name": "Main",
-         "DisplayName": "Configuration",
+         "DisplayName": "Gameplay",
          "Elements": [
             {
                "Name": "IncludeDir0",
                "DisplayName": "Voice Language",
                "Description": [
-                  "Determines voice langauge",
+                  "Determines voice langauge (Make sure you also change the language within the game's option menu for the different voices to work)",
                ],
                "Type": "VoiceEnum",
                "MinValue": null,
@@ -39,6 +39,23 @@
                "MaxValue": null,
                "DefaultValue": "core_dummy"
             },
+			{
+               "Name": "IncludeDir5",
+               "DisplayName": "Camera Type",
+               "Description": [
+                  "Choose between Cameras For Modern Sonic",
+               ],
+               "Type": "CameraEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "core_su_camera"
+            },
+         ],
+      },
+	  {
+         "Name": "Main",
+         "DisplayName": "Extra Options",
+         "Elements": [					
             {
                "Name": "IncludeDir3",
                "DisplayName": "Debug Boot Type",
@@ -61,20 +78,8 @@
                "MaxValue": null,
                "DefaultValue": "core_BGM"
             },
-
-            {
-               "Name": "IncludeDir5",
-               "DisplayName": "Camera Type",
-               "Description": [
-                  "Choose between Cameras For Modern Sonic",
-               ],
-               "Type": "CameraEnum",
-               "MinValue": null,
-               "MaxValue": null,
-               "DefaultValue": "core_su_camera"
-            },
-         ]
-      }
+         ],
+      },
    ],
    "Enums": {
       "VoiceEnum": [
