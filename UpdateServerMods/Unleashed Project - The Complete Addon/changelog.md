@@ -1,3 +1,123 @@
+## Unleashed Project: The Complete Addon V1.35
+__Windmill Isle Act 1__ 
+- Fixed Camera Collision at the loop
+- Restored Boost filter
+- Changed position of one of the medals
+
+__Windmill Isle Act 2__
+- Fixed Camera collision when entering the first 2D section as well as restoring the camera from SU
+- Adjusted minor cameras throughout the stage
+- Fixed Camera collision when sliding under the wall
+ 
+__Savanna Citadel__
+- Fixed camera collisions
+- Removed Super Ring from enemy trigger section
+- Added more Swing Poles in the stage 
+- Restored Cameras in QuickStep section
+- Fixed values of some camera objects and dash panels
+- You are now forced into the path towards the trick jump after passing through the 2D collision 
+- Fixed some enemy placements
+- HQ Textures from the preview build of SU are now used
+- Fixed hit particle bug
+- Fixed drum material bug
+- Nerfed the speed of the trick panel at the end of the stage
+
+__Rooftop Run__
+- Fixed Camera Collisions 
+- Fixed navigation collision in QS Path
+- Fixed enemy collisions
+- Removed random water splash when you die
+- The Jump Selector is now back in its place 
+- Removed 2D Collision near the end of the stage
+- Fixed the bug where you would not land on the rail in the last 2D section of the stage
+- Removed collision where you would boost, drift and jump near the beginning of the stage
+- Adjusted camera when grinding down the tower
+- Restored thorns in skydive section
+
+__Dragon Road__
+- Tweaked dash panel values to give a more average speed 
+- Restored Cameras at a 2D section 
+- Rockets explode with fireworks after using them (SU Restorations Collab) 
+- Restored values for the camera at the second rocket that you can find within the stage 
+- Fixed another camera before said section
+ 
+__Cool Edge__
+- Removed Snow effect
+- Removed all Spinners and added more EFighters at first & last bobsleigh section 
+- Adjusted cameras at bobsleigh sections
+- Changed dirt smoke to snow smoke when running 
+- Restored a camera before the last snowboard section
+- Proper Spring Animation is now used when being shot off the second whale
+
+__Arid Sands__ 
+- Fixed Camera Collisions 
+- 1:1 Cameras at the beginning of the stage 
+- Restored Camera at the second Trick Jump 
+- Restored Camera near middle of the stage when boulders are falling whilst you run 
+- Restored values when going to 3D near the end of the stage and for when the boulders should fall
+- 1:1 Cameras at the end of the stage
+ 
+__Empire City__
+- Fixed Camera Collisions 
+- Removed Spring and upreel at first trick jump section
+- Tunnels now use Dash Splines
+- Implemented GUN Truck with correct bomb placements and navigation tips to help
+- Fixed bug when enemies would instantly vanish when hit
+- Fixed position of rings at wall jumping sections
+- Restored cameras at wall running section
+- Restored camera when falling at the end of the stage 
+
+__Jungle Joyride__
+- Removed certain enemies throughout the stage
+- Adjusted the last trick panel  
+- Changed enemy trigger targets to eSpinners 
+- Removed FallDeadCollision where floor rises 
+- HQ Textures from the preview build of SU are now used
+- Removed a line of rings at first jungle area
+- Added correct bomb placements at GUN Truck section and navigation tips to help
+- Removed unnecessary camera at a Jump Selector 
+- Restored an SU enemy in the first 2D section
+
+__Miscellaneous__
+- Fixed World Map Music not playing when leaving skill shop or choosing custom music
+- Added correct water physics for stages with water sections
+- Removed stomping params from physics files 
+- Fixed Super Sonic Physics
+- Adjusted the size of the EXP orbs to be similar to SU
+- Removed pole swing guide
+- Added my own Welcome message for the addon after completing Windmill Isle 1 with a New Game
+- Changed HUB world message popup to fit its square box 
+- Redid explosion to make it more like SU 
+- Adjusted enemies for all stages 
+- Restored Walking animations for enemies 
+- Restored SU AeroChaser animations
+- SU Restorations will become a dependency to the addon
+- Added support for said mod
+- Added 'Disable Grind Rail Lock-on' code
+- Added 'No Out of Control Balloons' code 
+- Added 'Collect 10-Ring Instantly' code
+- Added 'Disable Instant Damage on Enemy Contact' Code
+- Made my own custom ID for the mod
+- Added unleashed title screen and stagegate (Unleashed UI is no longer required)
+- Added Unleashed text bubble 
+- Removed 'To Stage' button prompt in HUB world
+- Fixed static position when playing a stage and removed '???' when playing a stage for the first time
+- Fixed all text going off their respective areas/bubbles
+- Fixed stagegate picture for Arid Sands and updated picture for Windmill Isle Act 1
+- Fixed different medals used in HUB world
+- Skill Shop has Unleashed UI
+- Changed Skill Shop Text to be the Ice Cream Man as well as change his dialogue 
+- Removed Omochao from Skill Shop area 
+- Updated PS3 icons in stagegate 
+- Silver boss fight to replace Egg Devil Ray in Spagonia is now part of the mod; you must play through all the stages first to unlock him
+- From now on when you start a new game, Windmill Isle Act 1 is locked until you finish all levels
+- Added custom message for Silver and a reminder to fight him when you finish playing via the mod 
+- New stagegate picture for Silver and changed loading screen picture when using SU HUD
+- Updated Credits
+- New Config Layout
+- Sun and Moon medals and aesthetics are now a config 
+- Everything said about Sun Medals before, the same is done for moon medals
+
 ## Unleashed Project: The Complete Addon V1.3
 - Fixed some more 2D cameras in Arid Sands & Adjusted cameras near the end of the stage
 - Restored wall jumping mechanics in a certain 2D section in Arid Sands 
