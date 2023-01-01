@@ -2,7 +2,7 @@
    "Groups": [
       {
          "Name": "Main",
-         "DisplayName": "Configuration",
+         "DisplayName": "Gameplay",
          "Elements": [
 			{
                "Name": "IncludeDir0",
@@ -31,6 +31,36 @@
 			
 			
 			{
+               "Name": "IncludeDir4",
+               "DisplayName": "Unleashed Physics",
+               "Description": [
+                  "Enable Unleashed Physics",
+               ],
+               "Type": "PhysicsEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_su_phy"
+            },
+			
+			
+			{
+               "Name": "IncludeDir6",
+               "DisplayName": "Medal Type",
+               "Description": [
+                  "Determine which medal you want to use in the HUB World and in stages",
+               ],
+               "Type": "MedalEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_dummy"
+            },						
+         ],
+      },
+	  {
+         "Name": "Main",
+         "DisplayName": "Miscellaneous",
+         "Elements": [
+			{
                "Name": "IncludeDir2",
                "DisplayName": "World Map Music ",
                "Description": [
@@ -53,35 +83,26 @@
                "MinValue": null,
                "MaxValue": null,
                "DefaultValue": "main_su_startup"
-            },
-
-
-            {
-               "Name": "IncludeDir4",
-               "DisplayName": "Unleashed Physics",
-               "Description": [
-                  "Enable Unleashed Physics",
-               ],
-               "Type": "PhysicsEnum",
-               "MinValue": null,
-               "MaxValue": null,
-               "DefaultValue": "main_su_phy"
-            },
-
-			
+            },						
+         ],
+      },
+	  {
+         "Name": "Main",
+         "DisplayName": "Graphics Card",
+         "Elements": [			
 			{
                "Name": "IncludeDir5",
                "DisplayName": "RTX Fix",
                "Description": [
-                  "Enable the RTX Fix for Unleashed Project",
+                  "Enable the RTX Fix for Unleashed Project (Enable this if you're using Direct3D 9 Ex)",
                ],
                "Type": "RTXEnum",
                "MinValue": null,
                "MaxValue": null,
                "DefaultValue": "main_dummy"
             },
-         ]
-      }
+         ],
+      },
    ],
    "Enums": {
       "IconEnum": [
@@ -90,7 +111,7 @@
             "Value": "main_ps3",
             "Description": [
                "Use PlayStation 3 button prompts",
-            ]
+            ],
          },
          
          {
@@ -98,7 +119,7 @@
             "Value": "main_360",
             "Description": [
                "Use Xbox 360 button prompts",
-            ]
+            ],
          },
          
       ],
@@ -108,7 +129,7 @@
             "Value": "main_speed_down",
             "Description": [
                "Enable Speed Down",
-            ]
+            ],
          },
          
          {
@@ -116,7 +137,7 @@
             "Value": "main_dummy",
             "Description": [
                "Disable Speed Down",
-            ]
+            ],
          },
          
       ],
@@ -126,7 +147,7 @@
             "Value": "main_hub_bgm",
             "Description": [
                "Enable World Map Music",
-            ]
+            ],
          },
          
          {
@@ -134,7 +155,7 @@
             "Value": "main_dummy",
             "Description": [
                "Disable World Map Music",
-            ]
+            ],
          },
          
       ],
@@ -144,7 +165,7 @@
             "Value": "main_su_startup",
             "Description": [
                "Enable Sonic Unleashed Startup Recreation",
-            ]
+            ],
          },
          
          {
@@ -152,7 +173,7 @@
             "Value": "main_dummy",
             "Description": [
                "Disable Sonic Unleashed Startup Recreation",
-            ]
+            ],
          },
          
       ],
@@ -162,7 +183,7 @@
             "Value": "main_su_phy",
             "Description": [
                "Enable Unleashed Physics",
-            ]
+            ],
          },
 		 
 		 {
@@ -170,7 +191,7 @@
             "Value": "main_su_phy_qte",
             "Description": [
                "Use Physics with the trick speed similar to the QTE in Unleashed(MAKE SURE TRICK MASTERY SKILL IS ENABLED)",
-            ]
+            ],
          },
          
          {
@@ -178,7 +199,7 @@
             "Value": "main_dummy",
             "Description": [
                "Disable Unleashed Physics",
-            ]
+            ],
          },
          
       ],
@@ -188,7 +209,7 @@
             "Value": "main_rtx",
             "Description": [
                "Enable RTX Fix",
-            ]
+            ],
          },
          
          {
@@ -196,7 +217,25 @@
             "Value": "main_dummy",
             "Description": [
                "Disable RTX Fix",
-            ]
+            ],
+         },
+         
+      ],
+	  "MedalEnum": [
+          {
+            "DisplayName": "Sun Medal",
+            "Value": "main_dummy",
+            "Description": [
+               "Use Sun Medals",
+            ],
+         },
+         
+         {
+            "DisplayName": "Moon Medal",
+            "Value": "main_moon",
+            "Description": [
+               "Use Moon Medals",
+            ],
          },
          
       ],

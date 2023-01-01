@@ -79,11 +79,24 @@ cvtps2pd xmm2, xmm2
 Patch "All Cameras are Controllable" by "Skyth"
 WriteNop(0x10E7515, 2);
 
-Patch "Disable Brightness Adjustment" by "Skyth"
-WriteProtected<byte>(0xD68183, 0x83, 0xC4, 0x08, 0x90, 0x90);
-
 Patch "Unleashed Stick Deadzones" by "M&M"
 WriteProtected<byte>(0x16055EC, 0x69); /* InputThreshold (0.02f) */
 WriteProtected<byte>(0xE75F93, 0x38, 0x71); /* InputTransformHalf (0.85f) */
 WriteProtected<byte>(0x1605610, 0x69);
 WriteProtected<byte>(0x160562C, 0x69); /* InputTransformPower (3.0f) */
+
+Patch "Disable Grind Rail Lock-on" by "brianuuu"
+WriteProtected<byte>(0x121EDA4, 0xE9, 0xAD, 0x00, 0x00, 0x00)
+
+Patch "No Out of Control Balloons" by "N69"
+WriteProtected<uint>(0x11BEBAA, 0xB6E9)
+WriteProtected<byte>(0x11BEBAE, 0x0)
+WriteNop(0x11BEBAF, 2)
+
+Patch "Collect 10-Ring Instantly" by "brianuuu"
+WriteNop(0xE4155E, 2);
+WriteNop(0xE415C8, 2);
+WriteProtected<int>(0xE4157A, -1);
+
+Code "Disable Instant Damage on Enemy Contact" by "Skyth"
+*(int*)0x1E0BE34 = 0;
