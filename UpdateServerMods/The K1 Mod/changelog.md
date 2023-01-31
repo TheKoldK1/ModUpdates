@@ -1,3 +1,8 @@
+## The K1 Mod v1.9
+- Fixed Japanese results & quick step voices
+- Removed files that are no longer required for SU Restorations support
+- Brought back the Goal Ring ambient sfx
+
 ## The K1 Mod v1.85
 - The sweet new models for Pure SU Redux Marza Sonic are now part of the mod
 - Added SU Particles for Super Sonic
