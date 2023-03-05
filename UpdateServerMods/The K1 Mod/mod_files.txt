@@ -1,11 +1,2 @@
-add core_eng/disk/bb/cmn200.ar.00
-add core_eng/disk/bb/cmn200.ar.01
-add core_eng/disk/bb/cmn200.arl
-add core_jpn/disk/bb/cmn200.ar.00
-add core_jpn/disk/bb/cmn200.ar.01
-add core_jpn/disk/bb/cmn200.arl
-add core_jpn/disk/bb3/voices/Japanese/SonicVoice.ar.00
-add core_jpn/disk/bb3/voices/Japanese/SonicVoice.arl
-delete core_main/disk/bb3/#SonicRamp.ar.00
-delete core_main/disk/bb3/#SonicRamp.arl
+add K1Kodes.hmm
 add mod.ini
