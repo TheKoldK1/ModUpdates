@@ -1,3 +1,6 @@
+## A small update to prepare for the next K1 Addon Update
+- Removed 'Unleashed Style Camera' Code from the mod's HMM file
+
 ## The K1 Mod v1.9
 - Fixed Japanese results & quick step voices
 - Removed files that are no longer required for SU Restorations support
