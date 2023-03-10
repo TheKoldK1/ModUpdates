@@ -2,4 +2,4 @@ add main_jj1-2/disk/bb2/#euc200.ar.00
 add main_jj1-2/disk/bb2/#euc200.arl
 add main_jj1-2/disk/bb2/euc200.ar.00
 add main_jj1-2/disk/bb2/euc200.arl
-add mod.ini 
+add mod.ini
