@@ -19,6 +19,19 @@
 			
 			{
                "Name": "IncludeDir1",
+               "DisplayName": "Jungle Joyride Act 1-2",
+               "Description": [
+                  "Challenge yourself in the more difficult variation of Jungle Joyride",
+               ],
+               "Type": "JungleEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "main_dummy"
+            },
+			
+			
+			{
+               "Name": "IncludeDir2",
                "DisplayName": "Speed Down In Aero Chaser Sections",
                "Description": [
                   "Enable speed down in the chaser sections in Roofop Run, Dragon Road, Empire City & Jungle Joyride",
@@ -31,7 +44,7 @@
 			
 			
 			{
-               "Name": "IncludeDir4",
+               "Name": "IncludeDir5",
                "DisplayName": "Unleashed Physics",
                "Description": [
                   "Enable Unleashed Physics",
@@ -44,7 +57,7 @@
 			
 			
 			{
-               "Name": "IncludeDir6",
+               "Name": "IncludeDir7",
                "DisplayName": "Medal Type",
                "Description": [
                   "Determine which medal you want to use in the HUB World and in stages",
@@ -61,7 +74,7 @@
          "DisplayName": "Miscellaneous",
          "Elements": [
 			{
-               "Name": "IncludeDir2",
+               "Name": "IncludeDir3",
                "DisplayName": "World Map Music ",
                "Description": [
                   "Enable world map music in the HUB world",
@@ -74,7 +87,7 @@
 			
 			
 			{
-               "Name": "IncludeDir3",
+               "Name": "IncludeDir4",
                "DisplayName": "Sonic Unleashed Startup Recreation",
                "Description": [
                   "Enable my Sonic Unleashed Startup Recreation Mod",
@@ -91,7 +104,7 @@
          "DisplayName": "Graphics Card",
          "Elements": [			
 			{
-               "Name": "IncludeDir5",
+               "Name": "IncludeDir6",
                "DisplayName": "RTX Fix",
                "Description": [
                   "Enable the RTX Fix for Unleashed Project (Enable this if you're using Direct3D 9 Ex)",
@@ -235,6 +248,24 @@
             "Value": "main_moon",
             "Description": [
                "Use Moon Medals",
+            ],
+         },
+         
+      ],
+	  "JungleEnum": [
+          {
+            "DisplayName": "Enable",
+            "Value": "main_jj1-2",
+            "Description": [
+               "Enable Jungle Joyride Act 1-2",
+            ],
+         },
+         
+         {
+            "DisplayName": "Disable",
+            "Value": "main_dummy",
+            "Description": [
+               "Disable Jungle Joyride Act 1-2",
             ],
          },
          
