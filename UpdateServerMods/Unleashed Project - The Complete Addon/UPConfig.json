@@ -19,11 +19,11 @@
 			
 			{
                "Name": "IncludeDir1",
-               "DisplayName": "Jungle Joyride Act 1-2",
+               "DisplayName": "DLC Stages",
                "Description": [
-                  "Challenge yourself in the more difficult variation of Jungle Joyride",
+                  "Challenge yourself in the more difficult variation of Jungle Joyride & Savanna Citadel",
                ],
-               "Type": "JungleEnum",
+               "Type": "DLCEnum",
                "MinValue": null,
                "MaxValue": null,
                "DefaultValue": "main_dummy"
@@ -252,12 +252,12 @@
          },
          
       ],
-	  "JungleEnum": [
+	  "DLCEnum": [
           {
             "DisplayName": "Enable",
-            "Value": "main_jj1-2",
+            "Value": "main_dlc",
             "Description": [
-               "Enable Jungle Joyride Act 1-2",
+               "Enable Jungle Joyride & Savanna Citadel Act 1-2",
             ],
          },
          
@@ -265,7 +265,7 @@
             "DisplayName": "Disable",
             "Value": "main_dummy",
             "Description": [
-               "Disable Jungle Joyride Act 1-2",
+               "Disable Jungle Joyride & Savanna Citadel Act 1-2",
             ],
          },
          

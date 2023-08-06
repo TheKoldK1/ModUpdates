@@ -135,3 +135,13 @@ if (!initialized)
 Write(0x1A48BFC, 3.0f); // DRIFT_TARGET_SIDE_OFFSET_SCALE
 Write(0x1A48B60, 60.0f); // CAMERA_MAX_PITCH
 Write(0x1A48B6C, 20.0f); // CAMERA_PITCH_MOVE_VELOCITY_MIN
+
+Patch "Red Rings Appear On New Game" in "Gameplay" by "brianuuu"
+WriteNop(0x11A9ECB, 2);
+
+Patch "Disable Trick Particles" in "Graphics" by "Hyper"
+WriteProtected<byte>(0x15E9128, 0x00); /* ef_ch_sng_yh1_jump_trick1 */
+WriteProtected<byte>(0x15E9144, 0x00); /* ef_ch_sng_yh1_jump_trick2 */
+WriteProtected<byte>(0x15E9160, 0x00); /* ef_ch_sng_yh1_jump_trick3 */
+WriteProtected<byte>(0x15E917C, 0x00); /* ef_ch_sng_yh1_jump_trick4 */
+WriteProtected<byte>(0x15E9198, 0x00); /* ef_ch_sng_yh1_jump_trick5 */
