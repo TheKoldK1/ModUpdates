@@ -1,3 +1,33 @@
+## Unleashed Project: The Complete Addon V1.45
+__Savanna Citadel Act 1__
+- Removed unnecessary elephants in the second drift section
+- Re-did all slow down collisions
+- Fixed all particle issues
+- Restored a vital camera
+- Fixed sky material bug
+
+__Savanna Citadel Act 1-2__
+- A new addition to the mod
+
+__Rooftop Run__
+- Removed barrels that would instant spawn out of nowhere
+
+__Cool Edge__
+- Restored SU bobsleigh particle
+
+__Jungle Joyride__
+- Fixed jet boosters on chasers
+
+__Miscellaneous__
+- HUB World now shows '1-2' for the two stages when 'DLC Stages' is enabled
+- Some extra camera and object tweaks for some stages
+- Restored SU Boost Pulse (Thanks to Novotarius for pointing this out)
+- Added 'Red Rings Appear On New Game' Code
+- Added Sun & Moon medal support for the 'Reappear Red Ring' mod by brianuuuSonic
+- Removed unnecessary enemy files so stages will load the original one
+- Added SU music for the Title Screen, Options Menu, Skill Shop & Results Screen
+- Added 'Disable Trick Particles' Code
+
 ## Unleashed Project: The Complete Addon V1.40
 __Windmill Isle Act 1__
 - Fixed camera transitions at the end of the stage
