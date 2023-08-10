@@ -1,12 +1,12 @@
 ## Unleashed Project: The Complete Addon V1.45
-__Savanna Citadel Act 1__
+__Savannah Citadel Act 1__
 - Removed unnecessary elephants in the second drift section
 - Re-did all slow down collisions
 - Fixed all particle issues
 - Restored a vital camera
 - Fixed sky material bug
 
-__Savanna Citadel Act 1-2__
+__Savannah Citadel Act 1-2__
 - A new addition to the mod
 
 __Rooftop Run__
@@ -32,7 +32,7 @@ __Miscellaneous__
 __Windmill Isle Act 1__
 - Fixed camera transitions at the end of the stage
 
-__Savanna Citadel__
+__Savannah Citadel__
 - Restored and fixed cameras in second 2D section
 - Removed unnecessary enemies
 - Increased FOV of camera before last 2D section
@@ -73,7 +73,7 @@ __Windmill Isle Act 2__
 - Adjusted minor cameras throughout the stage
 - Fixed Camera collision when sliding under the wall
  
-__Savanna Citadel__
+__Savannah Citadel__
 - Fixed camera collisions
 - Removed Super Ring from enemy trigger section
 - Added more Swing Poles in the stage 
