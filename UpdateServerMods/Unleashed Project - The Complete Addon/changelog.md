@@ -1,3 +1,6 @@
+## Unleashed Project: The Complete Addon V1.45.1
+- Removed SU Restorations as a dependency for the addon so that the mod is playable
+
 ## Unleashed Project: The Complete Addon V1.45
 __Savannah Citadel Act 1__
 - Removed unnecessary elephants in the second drift section
