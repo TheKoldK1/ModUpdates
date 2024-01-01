@@ -19,32 +19,19 @@
 			
 			{
                "Name": "IncludeDir1",
-               "DisplayName": "DLC Stages",
+               "DisplayName": "DLC Edition",
                "Description": [
-                  "Challenge yourself in the more difficult variation of Jungle Joyride & Savanna Citadel",
+                  "Challenge yourself in the DLC Experience of the UP Addon",
                ],
                "Type": "DLCEnum",
                "MinValue": null,
                "MaxValue": null,
                "DefaultValue": "main_dummy"
             },
-			
-			
-			{
-               "Name": "IncludeDir2",
-               "DisplayName": "Speed Down In Aero Chaser Sections",
-               "Description": [
-                  "Enable speed down in the chaser sections in Roofop Run, Dragon Road, Empire City & Jungle Joyride",
-               ],
-               "Type": "SpeedEnum",
-               "MinValue": null,
-               "MaxValue": null,
-               "DefaultValue": "main_speed_down"
-            },
-			
+												
 			
 			{
-               "Name": "IncludeDir5",
+               "Name": "IncludeDir4",
                "DisplayName": "Unleashed Physics",
                "Description": [
                   "Enable Unleashed Physics",
@@ -57,7 +44,7 @@
 			
 			
 			{
-               "Name": "IncludeDir7",
+               "Name": "IncludeDir6",
                "DisplayName": "Medal Type",
                "Description": [
                   "Determine which medal you want to use in the HUB World and in stages",
@@ -74,7 +61,7 @@
          "DisplayName": "Miscellaneous",
          "Elements": [
 			{
-               "Name": "IncludeDir3",
+               "Name": "IncludeDir2",
                "DisplayName": "World Map Music ",
                "Description": [
                   "Enable world map music in the HUB world",
@@ -87,7 +74,7 @@
 			
 			
 			{
-               "Name": "IncludeDir4",
+               "Name": "IncludeDir3",
                "DisplayName": "Sonic Unleashed Startup Recreation",
                "Description": [
                   "Enable my Sonic Unleashed Startup Recreation Mod",
@@ -104,7 +91,7 @@
          "DisplayName": "Graphics Card",
          "Elements": [			
 			{
-               "Name": "IncludeDir6",
+               "Name": "IncludeDir5",
                "DisplayName": "RTX Fix",
                "Description": [
                   "Enable the RTX Fix for Unleashed Project (Enable this if you're using Direct3D 9 Ex)",
@@ -129,27 +116,9 @@
          
          {
             "DisplayName": "XBOX 360",
-            "Value": "main_360",
-            "Description": [
-               "Use Xbox 360 button prompts",
-            ],
-         },
-         
-      ],
-	  "SpeedEnum": [
-          {
-            "DisplayName": "Enable",
-            "Value": "main_speed_down",
-            "Description": [
-               "Enable Speed Down",
-            ],
-         },
-         
-         {
-            "DisplayName": "Disable",
             "Value": "main_dummy",
             "Description": [
-               "Disable Speed Down",
+               "Use Xbox 360 button prompts",
             ],
          },
          
@@ -257,7 +226,7 @@
             "DisplayName": "Enable",
             "Value": "main_dlc",
             "Description": [
-               "Enable Jungle Joyride & Savanna Citadel Act 1-2",
+               "Enable DLC Edition",
             ],
          },
          
@@ -265,7 +234,7 @@
             "DisplayName": "Disable",
             "Value": "main_dummy",
             "Description": [
-               "Disable Jungle Joyride & Savanna Citadel Act 1-2",
+               "Disable DLC Edition",
             ],
          },
          
