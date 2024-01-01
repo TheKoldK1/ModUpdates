@@ -1,3 +1,22 @@
+## Unleashed Project: The Complete Addon V1.5 THE DLC EDITION
+__Savannah Citadel__
+-  Fixed wall texture 
+
+__Dragon Road__
+-  Added SU fire particle to the rocket
+
+__Cool Edge__
+- Another SU Restorations Collab with the bobsleigh exploding
+ 
+__Miscellaneous__
+-  Added a new, challenging experience to The Complete Addon - The DLC Edition
+-  Revamped the SET Data of every base stage 
+-  Fixed sky material shaders in Arid Sands, Empire City & Jungle Joyride
+-  Added the mole cannon enemy from Sonic Unleashed into the necessary stages
+-  Added SU Enemy Blast Particle
+-  HE1MLed the mod in every way possible (whilst also adding SU Objects and other additions)
+-  Made the Speed Down Option redundant; it is no longer configurable
+
 ## Unleashed Project: The Complete Addon V1.45.1
 - Removed SU Restorations as a dependency for the addon so that the mod is playable
 
