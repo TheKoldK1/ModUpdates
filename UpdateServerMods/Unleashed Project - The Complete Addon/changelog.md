@@ -11,7 +11,7 @@ __Cool Edge__
 __Miscellaneous__
 -  Added a new, challenging experience to The Complete Addon - The DLC Edition
 -  Revamped the SET Data of every base stage 
--  Fixed sky material shaders in Arid Sands, Empire City & Jungle Joyride
+-  Fixed sky material shaders in Rooftop Run, Arid Sands, Empire City & Jungle Joyride
 -  Added the mole cannon enemy from Sonic Unleashed into the necessary stages
 -  Added SU Enemy Blast Particle
 -  HE1MLed the mod in every way possible (whilst also adding SU Objects and other additions)
