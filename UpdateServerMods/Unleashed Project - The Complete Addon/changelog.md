@@ -1,12 +1,15 @@
 ## Unleashed Project: The Complete Addon V1.5 THE DLC EDITION
 __Savannah Citadel__
--  Fixed wall texture 
+-  Fixed wall texture
 
 __Dragon Road__
 -  Added SU fire particle to the rocket
 
 __Cool Edge__
 - Another SU Restorations Collab with the bobsleigh exploding
+
+__Jungle Joyride__
+- Fixed missing textures with an object
  
 __Miscellaneous__
 -  Added a new, challenging experience to The Complete Addon - The DLC Edition
