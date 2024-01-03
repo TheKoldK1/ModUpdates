@@ -167,6 +167,11 @@ add main_mod/disk/bb/Packed/cpz200/cpz200.ar.04
 add main_mod/disk/bb/Packed/cpz200/cpz200.ar.05
 add main_mod/disk/bb/Packed/cpz200/cpz200.ar.06
 add main_mod/disk/bb/Packed/cpz200/cpz200.arl
+add main_mod/disk/bb/Packed/ssz200/ssz200.ar.00
+add main_mod/disk/bb/Packed/ssz200/ssz200.ar.01
+add main_mod/disk/bb/Packed/ssz200/ssz200.ar.02
+add main_mod/disk/bb/Packed/ssz200/ssz200.ar.03
+add main_mod/disk/bb/Packed/ssz200/ssz200.arl
 add main_mod/disk/bb2/#pam000.ar.00
 add main_mod/disk/bb2/#pam000.arl
 add main_mod/disk/bb2/#pla200.ar.00
