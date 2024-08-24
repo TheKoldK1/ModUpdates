@@ -1,3 +1,20 @@
+## Unleashed Project: The Complete Addon V1.55 QUICK TIME EVENTS ARE BACK
+__Windmill Isle Act 1__
+-  Fixed OutOfControl parameter at a certain JumpCollision
+
+__Rooftop Run__
+-  Fixed sky material
+-  Fixed skydiving rotation in Rooftop Run (Thanks to MentorDex)
+-  Moved Rooftop Run transition data into another layer so there's no longer another sonic model after skydiving
+
+__Jungle Joyride__
+- Fixed missing textures with an object
+- Removed unnecessary dash ring near the end of the stage
+ 
+__Miscellaneous__
+- Restored QTE in every stage, including the DLC Edition (Please consider that you *must* be using the mod from now on whenever you're playing with this addon)
+- Removed 'QTE-like Physics' due to the previous note
+
 ## Unleashed Project: The Complete Addon V1.5 THE DLC EDITION
 __Savannah Citadel__
 -  Fixed wall texture
