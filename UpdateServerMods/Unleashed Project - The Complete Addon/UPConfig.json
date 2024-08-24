@@ -168,14 +168,6 @@
             ],
          },
 		 
-		 {
-            "DisplayName": "Enable w/ QTE-like Physics",
-            "Value": "main_su_phy_qte",
-            "Description": [
-               "Use Physics with the trick speed similar to the QTE in Unleashed(MAKE SURE TRICK MASTERY SKILL IS ENABLED)",
-            ],
-         },
-         
          {
             "DisplayName": "Disable",
             "Value": "main_dummy",
