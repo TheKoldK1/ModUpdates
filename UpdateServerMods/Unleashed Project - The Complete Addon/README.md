@@ -1,6 +1,7 @@
 # Introduction
 So The Unleashed Project mod for Sonic Generations came out in 2013 and although it did please the majority of us Sonic Fans, 
 a lot of aspects of the stages were missed out. 
+
 We have seen a few mods that add onto the unleashed project which are all unique in their own way but never maximised the ability to 
 make the stages look 1:1 to their SU counterpart, which is why we see requests about combining mods.
 It’s about time someone decided to take the upper-hand and answer their prayers ;)
@@ -50,61 +51,61 @@ improvised in order for the mod to run smoothly, you'll notice while you play__
 
 __Gameplay__
 
-- Jump Selector button icons: Choose between PlayStation 3 and Xbox 360 button icons for Jump Selectors.
+- __Jump Selector button icons__: Choose between PlayStation 3 and Xbox 360 button icons for Jump Selectors.
 
-- DLC Edition: Choose to play through the more challenging variation of The Complete Addon - The DLC Edition
+- __DLC Edition__: Choose to play through the more challenging variation of The Complete Addon - The DLC Edition
 
-- Unleashed Physics: Choose to play with Sonic Unleashed-like physics.
+- __Unleashed Physics__: Choose to play with Sonic Unleashed-like physics.
 
-- Medal Type: Choose between Sun & Moon Medals to use in game, as well as their respective door gate particles, UI implementation, text and more! 
+- __Medal Type__: Choose between Sun & Moon Medals to use in game, as well as their respective door gate particles, UI implementation, text and more! 
 
 __Miscellaneous__
 
-- World map music for HUB World: Determine whether you want the world map music from Sonic Unleashed should play in 
+- __World map music for HUB World__: Determine whether you want the world map music from Sonic Unleashed should play in 
 the HUB world rather than the separate tracks
 
-- Sonic Unleashed Startup Recreation: Choose to enable a more similar startup sequence to SU 
+- __Sonic Unleashed Startup Recreation__: Choose to enable a more similar startup sequence to SU 
 
 __Graphics Card__
 
-- Unleashed Project RTX Fix: Choose to enable the RTX Fix if you experience problems when loading into the white world
+- __Unleashed Project RTX Fix__: Choose to enable the RTX Fix if you experience problems when loading into the white world
 
 ## Codes Used Within This Mod
-- No Trick Rainbow Rings by Hyper
+- __No Trick Rainbow Rings by Hyper__
 
-- Fix Skydive Collision Detection by N69vid
+- __Fix Skydive Collision Detection by N69vid__
 
-- All Rings Can Be Light Dashed by Skyth
+- __All Rings Can Be Light Dashed by Skyth__
 
-- Disable Light Dash Particles by Hyper
+- __Disable Light Dash Particles by Hyper__
 
-- Disable Lap Time Display by Hyper
+- __Disable Lap Time Display by Hyper__
 
-- Disable Title Loading Video by Hyper
+- __Disable Title Loading Video by Hyper__
 
-- Disable Title Outro by Skyth
+- __Disable Title Outro by Skyth__
 
-- Restore Right Stick Camera Controls by Skyth & Ahremic
+- __Restore Right Stick Camera Controls by Skyth & Ahremic__
 
-- All Cameras are Controllable by Skyth
+- __All Cameras are Controllable by Skyth__
 
-- Unleashed Stick Deadzones by M&M
+- __Unleashed Stick Deadzones by M&M__
 
-- Disable Grind Rail Lock-on by brianuuuSonic
+- __Disable Grind Rail Lock-on by brianuuuSonic__
 
-- No Out of Control Balloons by N69vid
+- __No Out of Control Balloons by N69vid__
 
-- Unleashed Style Camera by Skyth
+- __Unleashed Style Camera by Skyth__
 
-- Red Rings Appear On New Game by brianuuuSonic
+- __Red Rings Appear On New Game by brianuuuSonic__
 
-- Collect 10-Ring Instantly by brianuuuSonic
+- __Collect 10-Ring Instantly by brianuuuSonic__
 
-- Disable Trick Particles by Hyper
+- __Disable Trick Particles by Hyper__
 
-- Disable Instant Damage on Enemy Contact by Skyth
+- __Disable Instant Damage on Enemy Contact by Skyth__
 
-How to set up the mod? 
+# How to set up the mod? 
 Because this is an addon you will need to download the original Unleashed Project mod before playing this
 
 Make sure that this mod goes above the Unleashed Project in HedgeModManager
@@ -130,4 +131,39 @@ A:
 - Rename the .dll file to something else
 - Open the mod.ini in said mod’s folder
 - Where it says 'DLL File' replace the name with the new name you have given your .dll file and save
- 
+
+
+ # Credits
+
+__Main Developers__
+- __TheKoldK1__ - The creator & leader of this addon, founded the idea, merging SETs together, config file, a crapton of XML & SET Data editing
+- __ExeQutionn__ - My right hand man whilst making this addon, reworking all of the cameras and helping with object placement, feedback on what I should do/improvements, various particles, fixing collisions, EXP Orbs
+- __Archxe__ - Providing me with Unleashed world map music, welcome and credits photos, HQ Textures, Thumbnail background, Silver Boss Fight, assisted on GUN truck implementation in Empire City
+- __Locomotivesss__ - Unleashed UI for Skill Shop, Fixing medals, Collaborations with SU Restorations (A great mod to use with this addon), xncp editing within the stagegate, New Logo
+
+__Contributors__
+- __Kagenoki__ - Unleashing Unleashed Project, lending me the unlocked files
+- __Lmqsimp__ - Providing me with the stage files directly from Unleashed, photographer, has been with me from the start of this mod's journey
+- __TrueScourge200__ - Helping me find certain objects, doing some extra scene effect editing, another OG of the journey
+- __brianuuuSonic__ - Enemy Trigger mod & a patch for said mod, QTE Restoration mod and letting me beta test
+- __MentorDex__ - Implemented the enemy trigger and giving me and other people the files
+- __RFunk195__ - Making a score generations layout for this addon
+- __iulian204___ - Unleashed Style Enemies mod
+- __TuanPingas__ - Unleashed Project Original Lighting, Jungle Joyride Act 1-2 & RTX Fix mods, unleashed physics, made a more accurate version of the startup sequence
+
+__Special Thanks__
+- __TiManXD__ - Originally ported Jungle Joyride Act 1-2 to UP
+- __Skyth__ - HMM Codes, creator of QuickBoot+ which helped out a lot
+- __Hyperbx__ - HMM Codes
+- __N69Vid__ - Ported the JumpSelectors to Generations & HMM Codes
+- __Team Unleashed__ - The original creators of the Unleashed Project
+- __Dariosamo__ - Main leader of Team Unleashed, the Creator of SonicGLvl, which helped out a lot on visualising stage layouts
+- __SEGA/Sonic Team__ - Creators of Sonic Unleashed & Sonic Generations
+
+__Testers/Feedbackers__
+- __Lmqsimp__
+- __Archxe__
+- __TrueScourge200__
+- __Locomotivesss__
+- __Max_payne002__
+- __ExeQutionn__
